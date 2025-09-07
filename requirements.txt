@@ -11,6 +11,8 @@ torch
 torchvision
 Pillow
 accelerate
+pydantic
+io
 
 # Run your app:
 # uvicorn main:app --reload
