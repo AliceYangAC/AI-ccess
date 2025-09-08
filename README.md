@@ -1,5 +1,5 @@
 # AIccess
-<h6>Build a Python-based microservice that: </h6>	
+<h3>Build a Python-based microservice that: </h3>	
 <p>
   <ul>
     <li>Detects accessibility needs</li>
