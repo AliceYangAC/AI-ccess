@@ -6,12 +6,19 @@ def detect(user_data):
         needs.append("voice_navigation")
     if user_data.get("zoom_level", 100) > 120:
         needs.append("high_contrast")
+    if user_data.get("simplified_layout"):
+        needs.append("minimal_layout")
     return {"needs": needs}
+
 def adapt(data):
     ui = data["ui_state"]
     needs = data["needs"]
+
     if "high_contrast" in needs:
         ui["theme"] = "dark"
-    if "simplified_layout" in needs:
-        ui["layout"] = "minimal"
+    if "minimal_layout" in needs:
+        ui["layout"] = "simplified"
+    if "voice_navigation" in needs:
+        ui["navigation_mode"] = "voice"
+
     return {"adapted_ui": ui}

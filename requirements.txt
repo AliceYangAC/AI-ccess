@@ -12,7 +12,8 @@ torchvision
 Pillow
 accelerate
 pydantic
-io
+python-multipart
+flask
 
 # Run your app:
 # uvicorn main:app --reload
