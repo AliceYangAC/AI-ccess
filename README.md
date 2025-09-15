@@ -68,8 +68,7 @@ uvicorn main:app --reload
 ### 5. Run the Flask frontend
 
 ```bash
-cd flask_frontend
-python app.py
+python flask_frontend/app.py
 ```
 
 ---
