@@ -34,15 +34,5 @@ def voice_intent():
     result = interpret_command(text)
     return jsonify(route_intent(result["intent"]))
 
-@app.route("/ui-adapt", methods=["GET", "POST"])
-def ui_adapt():
-    adapted = None
-    if request.method == "POST":
-        ui_state = json.loads(request.form["ui_state"])
-        needs = json.loads(request.form["needs"])
-        res = requests.post(f"{API_BASE}/adapt-ui", json={"ui_state": ui_state, "needs": needs})
-        adapted = res.json().get("adapted_ui")
-    return render_template("ui_adapt.html", adapted=adapted)
-
 if __name__ == "__main__":
     app.run(debug=True)

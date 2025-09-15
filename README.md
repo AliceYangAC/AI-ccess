@@ -78,7 +78,6 @@ python flask_frontend/app.py
 - `/` – Landing page
 - `/captioning` – Upload images for caption generation
 - `/voice` – Voice-controlled dashboard with layout adaptation
-- `/ui-adapt` – Manually test UI adaptation logic (WIP)
 
 ---
 

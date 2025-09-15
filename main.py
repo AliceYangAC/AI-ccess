@@ -9,10 +9,6 @@ app = FastAPI()
 async def detect_accessibility(request: Request):
     data = await request.json()
     return accessibility.detect(data)
-@app.post("/adapt-ui")
-async def adapt_ui(request: Request):
-    data = await request.json()
-    return accessibility.adapt(data)
 @app.post("/generate-caption")
 async def generate_caption(file: UploadFile = File(...)):
     return await captioning.generate(file)
