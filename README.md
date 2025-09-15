@@ -1,4 +1,4 @@
-# 🧠 AI-ccess
+# AI-ccess
 
 **AI-powered accessibility microservice** that adapts user interfaces, interprets voice commands, generates image captions, and personalizes experiences for users with diverse needs.
 
@@ -14,7 +14,7 @@
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 AI-CCESS/
@@ -37,7 +37,7 @@ AI-CCESS/
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repo
 
@@ -92,7 +92,7 @@ python app.py
 
 ---
 
-## 📌 Future Enhancements
+## Future Enhancements
 
 ### Priority
 
@@ -113,6 +113,6 @@ python app.py
 
 ---
 
-## 📄 License
+## License
 
 MIT License. See `LICENSE` file for details.
