@@ -1,6 +1,6 @@
 # AI-ccess
 
-**AI-powered accessibility microservice** that adapts user interfaces, interprets voice commands, generates image captions, and personalizes experiences for users with diverse needs.
+A Python-based and AI-powered accessibility microservices that takes advantage of models from Transformers to interpret voice commands and generate image captions for users with diverse accessibility needs. Is in active development with plans for future tools like adaptive user interfaces.
 
 ---
 
